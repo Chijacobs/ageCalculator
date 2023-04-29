@@ -57,7 +57,7 @@ input_month.addEventListener('input', (e) => {
 
 input_year.addEventListener('input', (e) => {
     if (+input_year.value > 2023) {
-        error_year.textContent = "Month must be valid";
+        error_year.textContent = "Year must be valid";
         isValid = false;
         return;
     }   else {
